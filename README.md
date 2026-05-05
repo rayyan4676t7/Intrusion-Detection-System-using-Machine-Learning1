@@ -26,6 +26,14 @@ This project builds a machine learning-based Intrusion Detection System using th
 - Weighted Logistic Regression
 - Random Forest Classifier
 
+  ## 📊 Model Performance Comparison
+
+| Model               |Accuracy | Precision (Attack)   | Recall (Attack) |
+|------|--------|------------------|----------------   |
+| Logistic Regression | 0.76       |    0.93           |     0.62 |
+| Weighted Logistic   | 0.76       |    0.92           |     0.64 |
+| Random Forest       | 0.77       |    0.97           |     0.62 |
+
 ## 📈 Results
 - Accuracy: ~76–77%
 - High precision (~0.97) for attack detection
