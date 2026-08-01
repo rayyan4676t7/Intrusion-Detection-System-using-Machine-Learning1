@@ -40,9 +40,13 @@ This project builds a machine learning-based Intrusion Detection System using th
 ![Confusion Matrix](confusion_matrix.png)
 
 ## 📈 Results
-- Accuracy: ~76–77%
-- High precision (~0.97) for attack detection
-- Moderate recall (~0.62), meaning some attacks are missed
+Random Forest achieved:
+
+• Accuracy: 77%
+• Precision (Attack): 97%
+• Recall (Attack): 62%
+
+The model demonstrated excellent precision in identifying malicious traffic while highlighting the importance of improving recall to reduce missed attacks.
 
 ## 🧠 Key Insight
 There is a tradeoff between precision and recall. While the model is highly accurate in detecting attacks, improving recall is critical in cybersecurity applications to avoid missing threats.
